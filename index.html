@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Personal Portfolio Website Design </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Education & Skill</a>
+        <a href="#services">Services</a>       
+        <a href="#contact">Contact</a>
+    </nav>
+  </header>  
+
+  <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Md Tarikul Islam</h1>
+        <h3>And I'm a <span>Student</span></h3>             
+    </div>
+    <div class="home-img">
+      <img src="bg_1.jpg" alt="">
+    </div>
+  </section> 
+  <!--about section design-->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="about-me.jpg" alt="">
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Cloud Computing Developer!</h3>
+      <p>This is Tarikul Islam. I am a student and Oracle Database Application Developer.Currently I live at Mohakhali in Dhaka. My permanent Address is Phurbadhola in Netrokona. I have completed Diploma in Engineering Electronics Technology. Now I am doing training in Cloud Computing using Oracle Apex From IsDB.</p>
+    </div>
+  </section>
+<section class="skill" id="skill">
+  <h2 class="heading title-s">Educational <span>Qualification</span></h2>
+  <div class="education"><table>
+    <thead>
+        <tr>
+            <th>Exam Title</th>
+            <th>Subject</th>
+            <th>Institute</th>
+            <th>Result</th>
+            <th>Passing Year</th>
+            <th>Duration</th>
+            <th>Achievement</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Diploma in Engineering</td>
+            <td>Electronics technology</td>
+            <td>Mymensingh polytechnic Institute</td>
+            <td>CGPA: 3.27 out of 4</td>
+            <td>2023</td>
+            <td>4</td>
+            <td>Diploma in Engineering Electronics technology</td>
+        </tr>
+        <tr>
+          <td>S.S.C </td>
+          <td>Science</td>
+          <td>Jalsuka Kumudgonj High School</td>
+          <td>CGPA: 4.78 out of 5</td>
+          <td>2018</td>
+          <td>2</td>
+          <td>Scondary School Certificate</td>
+        </tr>
+    </tbody>
+</table></div>
+  <div class="skill-mf">
+    <h2 class="heading title-s">Skills</h2>
+    
+    <span>SQL     </span> <span class="pull-right"> 95%</span>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    
+    <span>PL/SQL  </span> <span class="pull-right">85%</span>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    
+    <span>HTML/CSS  </span> <span class="pull-right">90%</span>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    
+    <span>Javascript  </span> <span class="pull-right">85%</span>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+    
+    <span>MS Word, Exel   </span> <span class="pull-right">80%</span>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+        aria-valuemax="100"></div>
+    </div>
+  </div>
+</section>
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+    <div class="services-container">    
+    <div class="services-box">
+      <i class='bx bxs-data'></i>
+      <h3>Cloud Computing </h3>
+      <p>Cloud computing is the on-demand availability of computer system resources, especially cloud storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center.</p>
+      <a href="" class="btn">Read More</a>
+    </div>
+    <div class="services-box">
+      <i class='bx bx-bar-chart-alt'></i>
+      <h3>Digital Marketing</h3>
+      <p>Digital marketing typically refers to online marketing campaigns that appear on a computer, phone, tablet, or other device. It can take many forms, including online video, display ads, paid social ads and social media posts.Digital marketing is often compared to traditional marketing</p>
+      <a href="" class="btn">Read More</a>
+    </div>
+    </div>
+  </section> 
+  <section class = "contact" id="contact">
+    <h2 class="heading">contact <span>me</span></h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="text" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  <div class="Question">
+    <h2 class="have">Have a<span> Question?  </span></h2>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScFRvl1-fN4jkn0_saY2XoPPY-YIYV8tWdJQ917A1VWK5duMQ/viewform?usp=sf_link" class="btn btn-primary py-3 px-5">Click Here</a> 
+  </div>
+  
+          <h5 class="find"> Find <span>me</span></h5>
+  <div class="social-media">
+    <a href="https://www.facebook.com/profile.php?id=100014235499254&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+    <a href="https://www.instagram.com/tarikul485?igsh=MWdscWZzY3J1YXk0eA=="><i class='bx bxl-instagram-alt' ></i></a>
+    <a href="https://www.linkedin.com/in/tarikul-islam-898404308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
+    <a href="https://github.com/tarikulOSD"><i class='bx bxl-github'></i></a>
+</div>
+</section>
+<a href="https://drive.google.com/file/d/1V0bt5c_rYr0-U5R4yfst6-blF-MEzSVR/view?usp=sharing" class="btn btn1">Download CV</a>
+<footer class="ftco-footer ftco-section">
+  <div class="container">
+    <div class="row">
+    <div class="col-md-12 text-center">
+
+      <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+    </div>
+    </div>
+  </div>
+  </footer>   
+</body>
+</html>
